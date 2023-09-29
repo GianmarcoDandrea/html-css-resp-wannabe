@@ -5,3 +5,22 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+    .container {
+        width: 460px;
+        margin: 0;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+    
+    .steps .col,
+    .lessons .col,
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+    }
+
+
+}
