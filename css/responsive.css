@@ -1,13 +1,19 @@
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1140px) {
+    .container {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 460px) {
     .container {
-        width: 460px;
+        width: 100%;
         margin: 0;
     }
 
@@ -21,6 +27,5 @@
     .why-us .col-left {
         width: 100%;
     }
-
-
 }
+ 
